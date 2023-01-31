@@ -37,6 +37,6 @@ while True:
     tanya_kembali = input('\nJawab y untuk kembali bertanya jika tidak Tekan saja: ')
     if tanya_kembali == 'y':
         os.system('cls')
-        utama()
+        main()
     else:
         sys.exit()
